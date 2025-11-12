@@ -12,7 +12,8 @@ keywords = [
   "forecasting",
   "machine-learning",
   "regression",
-  "scikit-learn<1.5",
+  # "scikit-learn<1.5",
+  "scikit-learn",
   "time-series",
 ]
 license = { file = "LICENSE" }
@@ -58,7 +59,8 @@ dependencies = [
   # "scipy>=1.6.1,<=1.11.4",  # to fix later (
   "scipy==1.16.1",
   "joblib>=1.4.2,<1.5",
-  "scikit-learn<1.5",
+  # "scikit-learn<1.5",
+  "scikit-learn>=1.6.0,<2",
   "pyod>=1.1.3",
   "imbalanced-learn>=0.12.0,<0.14.0",
   "category-encoders>=2.4.0",
